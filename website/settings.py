@@ -19,14 +19,14 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('secret_key_p8')
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 if os.environ.get('ENV') == 'PRODUCTION':
     DEBUG = False
 else:
     DEBUG = True
-ALLOWED_HOSTS = ['https://pure-beurre-th.herokuapp.com/', '127.0.0.1']
+ALLOWED_HOSTS = ['165.227.235.195']
 
 # Application definition
 
@@ -44,7 +44,6 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -81,8 +80,8 @@ DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
             'NAME': 'pure_beurre',
-            'USER': os.environ.get('username_db_P8'),
-            'PASSWORD': os.environ.get('password_db_p8'),
+            'USER': 'theotim',
+            'PASSWORD': os.environ.get('PASSWORD_DB'),
             'HOST': 'localhost',
             'PORT': '5432'
         }
@@ -125,14 +124,13 @@ STATIC_URL = '/static/'
 
 
 if os.environ.get('ENV') == 'PRODUCTION':
-    STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
     # Static files settings
     PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
     STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 
     STATICFILES_DIRS = (
-        os.path.join(PROJECT_ROOT, 'static')
+        os.path.join(PROJECT_ROOT, 'static'),
     )
     db_from_env = dj_database_url.config(conn_max_age=500)
     DATABASES['default'].update(db_from_env)

@@ -13,7 +13,7 @@ class MySeleniumTests(StaticLiveServerTestCase):
                                              email="email@outlook.fr",
                                              password="pass_test")
 
-        self.browser = webdriver.Edge(executable_path=os.environ.get("PATH_WEBDRIVER"))
+        self.browser = webdriver.Edge(executable_path='/P10_pure_beurre/msedgedriver.exe')
 
     def test_login_user(self):
         self.browser.get(self.live_server_url + "/login/")

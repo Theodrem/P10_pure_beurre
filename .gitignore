@@ -5,7 +5,7 @@ website/settings/production.py
 .Python
 build/
 lib/
-
+.idea/
 .pytest_cache/
 cover/
 

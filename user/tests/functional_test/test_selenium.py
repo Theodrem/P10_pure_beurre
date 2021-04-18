@@ -1,4 +1,5 @@
 import time
+import os
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from selenium import webdriver
 from django.urls import reverse
@@ -12,7 +13,7 @@ class MySeleniumTests(StaticLiveServerTestCase):
                                              email="email@outlook.fr",
                                              password="pass_test")
 
-        self.browser = webdriver.Edge(executable_path=r"P10_pure_beurre\msedgedriver.exe")
+        self.browser = webdriver.Edge(executable_path=os.environ.get("PATH_WEBDRIVER"))
 
     def test_login_user(self):
         self.browser.get(self.live_server_url + "/login/")

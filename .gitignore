@@ -1,7 +1,6 @@
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
-
+website/settings/production.py
 # Distribution / packaging
 .Python
 build/

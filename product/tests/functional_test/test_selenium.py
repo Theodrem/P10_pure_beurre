@@ -31,7 +31,7 @@ class MySeleniumTests(StaticLiveServerTestCase):
                                              email="email@outlook.fr",
                                              password="pass_test")
 
-        self.browser = webdriver.Edge(executable_path=r"C:\Users\theot\P10_pure_beurre\msedgedriver.exe")
+        self.browser = webdriver.Edge(executable_path="msedgedriver.exe")
 
     def tearDown(self):
         self.browser.close()

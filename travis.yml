@@ -7,7 +7,7 @@ before_script:
 branches:
   only:
     - staging
-env: DJANGO_SETTINGS_MODULE="website.settings"
+env: DJANGO_SETTINGS_MODULE="website.settings.travis"
 
 services:
   - postgresql

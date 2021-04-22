@@ -3,22 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fd886a73-f8f3-49d7-9cee-d849ca0a68e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msedgedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/functional_test/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/tests/functional_test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/tests/functional_test/test_selenium.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/tests/integration_test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/integration_test/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/tests/integration_test/test_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/integration_test/test_form_product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/tests/integration_test/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/integration_test/test_views_product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/tests/unit_test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unit_test/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/tests/unit_test/test_fill_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unit_test/test_fill_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/tests/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/tests/functional_test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/tests/functional_test/test_selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/functional_test/test_selenium.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/tests/integration_test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/tests/integration_test/test_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/integration_test/test_form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/tests/integration_test/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/integration_test/test_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional_test/test_selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/functional_test/test_selenium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pure_beurre.json" beforeDir="false" afterPath="$PROJECT_DIR$/pure_beurre.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/P8_PB" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -237,7 +223,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618775570239</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="update selenium">
+      <created>1618777239117</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1618777239117</updated>
+    </task>
+    <task id="LOCAL-00027" summary="update selenium path">
+      <created>1618777457808</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1618777457808</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,6 +261,7 @@
     <MESSAGE value="del travis" />
     <MESSAGE value="del .idea" />
     <MESSAGE value="update selenium" />
-    <option name="LAST_COMMIT_MESSAGE" value="update selenium" />
+    <MESSAGE value="update selenium path" />
+    <option name="LAST_COMMIT_MESSAGE" value="update selenium path" />
   </component>
 </project>

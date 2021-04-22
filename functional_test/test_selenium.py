@@ -12,8 +12,7 @@ class MySeleniumTests(StaticLiveServerTestCase):
         self.user = User.objects.create_user(username="username_test",
                                              email="email@outlook.fr",
                                              password="pass_test")
-
-        self.browser = webdriver.Edge(executable_path="P10_pure_beurre\msedgedriver.exe")
+        self.browser = webdriver.Edge(executable_path="C:\exec\msedgedriver.exe")
 
     def test_login_user(self):
         self.browser.get(self.live_server_url + "/login/")

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fd886a73-f8f3-49d7-9cee-d849ca0a68e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/functional_test/test_selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/functional_test/test_selenium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619196079388</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="update selenium 3.1">
+      <created>1619253575494</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1619253575494</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -334,6 +341,7 @@
     <MESSAGE value="update selenium path" />
     <MESSAGE value="update dump db" />
     <MESSAGE value="update travis" />
-    <option name="LAST_COMMIT_MESSAGE" value="update travis" />
+    <MESSAGE value="update selenium 3.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="update selenium 3.1" />
   </component>
 </project>

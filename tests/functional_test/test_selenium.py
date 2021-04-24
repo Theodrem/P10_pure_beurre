@@ -12,7 +12,7 @@ class MySeleniumTests(StaticLiveServerTestCase):
                                              email="email@outlook.fr",
                                              password="pass_test")
 
-        self.browser = webdriver.Edge("chromedriver.exe")
+        self.browser = webdriver.Chrome("chromedriver.exe")
 
     def test_login_user(self):
         self.browser.get(self.live_server_url + "/login/")

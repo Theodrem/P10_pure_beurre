@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd886a73-f8f3-49d7-9cee-d849ca0a68e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -356,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619270525953</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="up selenium 3.4">
+      <created>1619271466278</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1619271466278</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -386,6 +392,7 @@
     <MESSAGE value="update selenium 3.1" />
     <MESSAGE value="update selenium 3.2" />
     <MESSAGE value="up selenium 3.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="up selenium 3.3" />
+    <MESSAGE value="up selenium 3.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="up selenium 3.4" />
   </component>
 </project>

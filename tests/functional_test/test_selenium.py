@@ -8,13 +8,11 @@ from django.contrib.auth.models import User
 
 class MySeleniumTests(StaticLiveServerTestCase):
     def setUp(self):
-
         self.user = User.objects.create_user(username="username_test",
                                              email="email@outlook.fr",
                                              password="pass_test")
 
-        self.browser = webdriver.Edge(executable_path="functional_test/msedgedriver.exe")
-
+        self.browser = webdriver.Edge("msedgedriver.exe")
 
     def test_login_user(self):
         self.browser.get(self.live_server_url + "/login/")

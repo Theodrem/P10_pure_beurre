@@ -8,12 +8,14 @@ branches:
     - staging
 env: DJANGO_SETTINGS_MODULE="website.settings.travis"
 
-
+dist: xenial
 services:
   - postgresql
-
+- xvfb
 script:
   - ./manage.py test
+
+
 
 addons:
   chrome: stable

@@ -3,7 +3,7 @@ python:
   - '3.9'
 before_script:
   - pip install -r requirements.txt
- - bundle exec rails runner "Webdrivers::Chromedriver.update"
+  - bundle exec rails runner "Webdrivers::Chromedriver.update"
 branches:
   only:
     - staging

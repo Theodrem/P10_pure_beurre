@@ -3,8 +3,6 @@ python:
   - '3.9'
 before_script:
   - pip install -r requirements.txt
-  - "export DISPLAY=:99.0"
-  - sleep 3 # give xvfb some time to start
 branches:
   only:
     - staging
@@ -13,15 +11,13 @@ env: DJANGO_SETTINGS_MODULE="website.settings.travis"
 
 services:
   - postgresql
-  - xvfb
 
 script:
-  xvfb-run make test
+  - ./manage.py test
 
 dist: xenial
 addons:
   chrome: stable
 before_install:
-  - # start your web application and listen on `localhost`
   - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
   ⋮

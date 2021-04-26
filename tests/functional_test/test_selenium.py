@@ -1,5 +1,6 @@
 import time
 import os
+import sys
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from selenium import webdriver
 from django.urls import reverse
@@ -18,7 +19,7 @@ class MySeleniumTests(StaticLiveServerTestCase):
                                              password="pass_test")
 
         self.browser = webdriver.Chrome(
-            executable_path=str(BASE_DIR / 'webdrivers' / 'chromedriver'),
+            executable_path=(BASE_DIR / 'webdrivers' / 'chromedriver'),
             options=chrome_options,
         )
         self.browser.implicitly_wait(30)

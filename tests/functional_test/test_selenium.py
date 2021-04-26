@@ -1,30 +1,47 @@
 import time
-import os
 import sys
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from selenium import webdriver
 from django.urls import reverse
-from django.contrib.auth.models import User
 from django.conf import settings
+from django.contrib.auth.models import User
+from product.models import Product, Category
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('window-size=1920x1080')
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 class MySeleniumTests(StaticLiveServerTestCase):
     def setUp(self):
-        self.user = User.objects.create_user(username="username_test",
-                                             email="email@outlook.fr",
-                                             password="pass_test")
-
         self.browser = webdriver.Chrome(
             executable_path=str(settings.BASE_DIR + '/webdrivers/' + 'chromedriver'),
             options=chrome_options,)
 
         self.browser.implicitly_wait(30)
         self.browser.maximize_window()
+
+        self.user = User.objects.create_user(username="username_test",
+                                             email="email@outlook.fr",
+                                             password="pass_test")
+        self.cat = Category.objects.create(name="fruit")
+        self.prod = Product.objects.create(name="Poire",
+                                           nutriscore="b",
+                                           brand="brand",
+                                           url_opff="https/opff/test.com",
+                                           ingredients="ingredients",
+                                           image="https/image/test.com",
+                                           opff_id=1234,
+                                           category=self.cat)
+
+        self.prod_two = Product.objects.create(name="Pomme",
+                                               nutriscore="a",
+                                               brand="brand",
+                                               url_opff="https/opff/test.com",
+                                               ingredients="ingredients du deuxieme produit",
+                                               image="https/image/test.com",
+                                               opff_id=12554,
+                                               category=self.cat)
 
     def test_login_user(self):
         self.browser.get(self.live_server_url + "/login/")

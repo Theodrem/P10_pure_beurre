@@ -9,7 +9,7 @@ from django.contrib.auth.models import User
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('window-size=1920x1080')
-
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 class MySeleniumTests(StaticLiveServerTestCase):
     def setUp(self):
@@ -18,7 +18,7 @@ class MySeleniumTests(StaticLiveServerTestCase):
                                              password="pass_test")
 
         self.browser = webdriver.Chrome(
-            executable_path=('webdrivers' , 'chromedriver'),
+            executable_path=(BASE_DIR / 'webdrivers' / 'chromedriver'),
             options=chrome_options,
         )
         self.browser.implicitly_wait(30)

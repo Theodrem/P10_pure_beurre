@@ -3,19 +3,18 @@ python:
   - '3.9'
 before_script:
   - pip install -r requirements.txt
+  - chromedriver-update 73.0.3683.68
 branches:
   only:
     - staging
+
 env: DJANGO_SETTINGS_MODULE="website.settings.travis"
 
-dist: xenial
 services:
   - postgresql
-- xvfb
+
 script:
   - ./manage.py test
-
-
 
 addons:
   chrome: stable

@@ -13,9 +13,10 @@ env: DJANGO_SETTINGS_MODULE="website.settings.travis"
 
 services:
   - postgresql
+  - xvfb
 
 script:
-  - ./manage.py test
+  xvfb-run make test
 
 dist: xenial
 addons:

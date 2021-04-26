@@ -20,7 +20,7 @@ class MySeleniumTests(StaticLiveServerTestCase):
                                              password="pass_test")
 
         self.browser = webdriver.Chrome(
-            executable_path=str(settings.BASE_DIR + 'webdrivers' + 'chromedriver'),
+            executable_path=str(settings.BASE_DIR + '/webdrivers/' + 'chromedriver'),
             options=chrome_options,)
 
         self.browser.implicitly_wait(30)

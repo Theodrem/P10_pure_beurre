@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd886a73-f8f3-49d7-9cee-d849ca0a68e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functional_test/test_selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/functional_test/test_selenium.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure_beurre.json" beforeDir="false" afterPath="$PROJECT_DIR$/pure_beurre.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/functional_test/test_selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/functional_test/test_selenium.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +27,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/P8_PB" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PycharmProjects/P8_PB" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\theot\P10_pure_beurre\tests\integration_test" />
       <recent name="C:\Users\theot\P10_pure_beurre\tests" />
+      <recent name="C:\Users\theot\P10_pure_beurre\functional_test" />
+      <recent name="C:\Users\theot\P10_pure_beurre\tests\integration_test" />
       <recent name="C:\Users\theot\P10_pure_beurre" />
     </key>
   </component>
@@ -48,196 +47,350 @@
       <option name="presentableId" value="Default" />
       <updated>1618736814040</updated>
     </task>
-    <task id="LOCAL-00001" summary="update settings">
-      <created>1618738075282</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+    <task id="LOCAL-00028" summary="update dump db">
+      <created>1619078143021</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
       <option name="project" value="LOCAL" />
-      <updated>1618738075282</updated>
+      <updated>1619078143021</updated>
     </task>
-    <task id="LOCAL-00002" summary="update settings">
-      <created>1618740747333</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
+    <task id="LOCAL-00029" summary="update travis">
+      <created>1619185326146</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
       <option name="project" value="LOCAL" />
-      <updated>1618740747333</updated>
+      <updated>1619185326146</updated>
     </task>
-    <task id="LOCAL-00003" summary="add travis.yml">
-      <created>1618746372236</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
+    <task id="LOCAL-00030" summary="update travis">
+      <created>1619185546061</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
       <option name="project" value="LOCAL" />
-      <updated>1618746372236</updated>
+      <updated>1619185546061</updated>
     </task>
-    <task id="LOCAL-00004" summary="add travis.yml">
-      <created>1618746638505</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
+    <task id="LOCAL-00031" summary="update travis">
+      <created>1619185656373</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
       <option name="project" value="LOCAL" />
-      <updated>1618746638505</updated>
+      <updated>1619185656373</updated>
     </task>
-    <task id="LOCAL-00005" summary="add travis.yml">
-      <created>1618746820410</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
+    <task id="LOCAL-00032" summary="update travis">
+      <created>1619186947228</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
       <option name="project" value="LOCAL" />
-      <updated>1618746820410</updated>
+      <updated>1619186947228</updated>
     </task>
-    <task id="LOCAL-00006" summary="add travis.py">
-      <created>1618747093616</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
+    <task id="LOCAL-00033" summary="update travis">
+      <created>1619195377039</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
       <option name="project" value="LOCAL" />
-      <updated>1618747093616</updated>
+      <updated>1619195377039</updated>
     </task>
-    <task id="LOCAL-00007" summary="add travis.py">
-      <created>1618747318064</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
+    <task id="LOCAL-00034" summary="update travis">
+      <created>1619195510542</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
       <option name="project" value="LOCAL" />
-      <updated>1618747318064</updated>
+      <updated>1619195510542</updated>
     </task>
-    <task id="LOCAL-00008" summary="update gitignore">
-      <created>1618747703424</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
+    <task id="LOCAL-00035" summary="update travis">
+      <created>1619195688803</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
       <option name="project" value="LOCAL" />
-      <updated>1618747703424</updated>
+      <updated>1619195688803</updated>
     </task>
-    <task id="LOCAL-00009" summary="update">
-      <created>1618748995693</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
+    <task id="LOCAL-00036" summary="update travis">
+      <created>1619195969393</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
       <option name="project" value="LOCAL" />
-      <updated>1618748995693</updated>
+      <updated>1619195969393</updated>
     </task>
-    <task id="LOCAL-00010" summary="del travis">
-      <created>1618755222017</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
+    <task id="LOCAL-00037" summary="update travis">
+      <created>1619196079388</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
       <option name="project" value="LOCAL" />
-      <updated>1618755222017</updated>
+      <updated>1619196079388</updated>
     </task>
-    <task id="LOCAL-00011" summary="del travis">
-      <created>1618755961492</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
+    <task id="LOCAL-00038" summary="update selenium 3.1">
+      <created>1619253575494</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
       <option name="project" value="LOCAL" />
-      <updated>1618755961492</updated>
+      <updated>1619253575494</updated>
     </task>
-    <task id="LOCAL-00012" summary="del .idea">
-      <created>1618757428881</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
+    <task id="LOCAL-00039" summary="update selenium 3.2">
+      <created>1619261270545</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
       <option name="project" value="LOCAL" />
-      <updated>1618757428881</updated>
+      <updated>1619261270545</updated>
     </task>
-    <task id="LOCAL-00013" summary="update selenium">
-      <created>1618768516239</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
+    <task id="LOCAL-00040" summary="update selenium 3.2">
+      <created>1619261435787</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
       <option name="project" value="LOCAL" />
-      <updated>1618768516239</updated>
+      <updated>1619261435787</updated>
     </task>
-    <task id="LOCAL-00014" summary="update selenium">
-      <created>1618770693949</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
+    <task id="LOCAL-00041" summary="update selenium 3.2">
+      <created>1619261752315</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
       <option name="project" value="LOCAL" />
-      <updated>1618770693949</updated>
+      <updated>1619261752315</updated>
     </task>
-    <task id="LOCAL-00015" summary="update selenium">
-      <created>1618770862916</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
+    <task id="LOCAL-00042" summary="up selenium 3.3">
+      <created>1619269861177</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
       <option name="project" value="LOCAL" />
-      <updated>1618770862916</updated>
+      <updated>1619269861177</updated>
     </task>
-    <task id="LOCAL-00016" summary="update selenium">
-      <created>1618772104015</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
+    <task id="LOCAL-00043" summary="up selenium 3.3">
+      <created>1619270107858</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
       <option name="project" value="LOCAL" />
-      <updated>1618772104015</updated>
+      <updated>1619270107858</updated>
     </task>
-    <task id="LOCAL-00017" summary="update selenium">
-      <created>1618772699501</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
+    <task id="LOCAL-00044" summary="up selenium 3.3">
+      <created>1619270525953</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
       <option name="project" value="LOCAL" />
-      <updated>1618772699501</updated>
+      <updated>1619270525953</updated>
     </task>
-    <task id="LOCAL-00018" summary="update selenium">
-      <created>1618772716361</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
+    <task id="LOCAL-00045" summary="up selenium 3.4">
+      <created>1619271466278</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
       <option name="project" value="LOCAL" />
-      <updated>1618772716361</updated>
+      <updated>1619271466278</updated>
     </task>
-    <task id="LOCAL-00019" summary="update selenium">
-      <created>1618773095916</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
+    <task id="LOCAL-00046" summary="up selenium 3.4">
+      <created>1619271694355</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
       <option name="project" value="LOCAL" />
-      <updated>1618773095916</updated>
+      <updated>1619271694355</updated>
     </task>
-    <task id="LOCAL-00020" summary="update selenium">
-      <created>1618773105248</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
+    <task id="LOCAL-00047" summary="up selenium 3.4">
+      <created>1619271960533</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
       <option name="project" value="LOCAL" />
-      <updated>1618773105248</updated>
+      <updated>1619271960533</updated>
     </task>
-    <task id="LOCAL-00021" summary="update selenium">
-      <created>1618773894415</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
+    <task id="LOCAL-00048" summary="up selenium 3.4">
+      <created>1619272063430</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
       <option name="project" value="LOCAL" />
-      <updated>1618773894415</updated>
+      <updated>1619272063430</updated>
     </task>
-    <task id="LOCAL-00022" summary="update selenium">
-      <created>1618774125271</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
+    <task id="LOCAL-00049" summary="up selenium 3.4">
+      <created>1619272195164</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
       <option name="project" value="LOCAL" />
-      <updated>1618774125271</updated>
+      <updated>1619272195164</updated>
     </task>
-    <task id="LOCAL-00023" summary="update selenium">
-      <created>1618774317970</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
+    <task id="LOCAL-00050" summary="up selenium 3.4">
+      <created>1619272839038</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
       <option name="project" value="LOCAL" />
-      <updated>1618774317970</updated>
+      <updated>1619272839038</updated>
     </task>
-    <task id="LOCAL-00024" summary="update selenium">
-      <created>1618774984874</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
+    <task id="LOCAL-00051" summary="up selenium 3.4">
+      <created>1619272942949</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
       <option name="project" value="LOCAL" />
-      <updated>1618774984874</updated>
+      <updated>1619272942949</updated>
     </task>
-    <task id="LOCAL-00025" summary="update selenium">
-      <created>1618775570239</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
+    <task id="LOCAL-00052" summary="up selenium 3.4">
+      <created>1619273267833</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
       <option name="project" value="LOCAL" />
-      <updated>1618775570239</updated>
+      <updated>1619273267833</updated>
     </task>
-    <task id="LOCAL-00026" summary="update selenium">
-      <created>1618777239117</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
+    <task id="LOCAL-00053" summary="up selenium 3.4">
+      <created>1619273509052</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
       <option name="project" value="LOCAL" />
-      <updated>1618777239117</updated>
+      <updated>1619273509052</updated>
     </task>
-    <task id="LOCAL-00027" summary="update selenium path">
-      <created>1618777457808</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
+    <task id="LOCAL-00054" summary="up selenium 3.4">
+      <created>1619273874501</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
       <option name="project" value="LOCAL" />
-      <updated>1618777457808</updated>
+      <updated>1619273874501</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00055" summary="up selenium 3.4">
+      <created>1619273964902</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1619273964902</updated>
+    </task>
+    <task id="LOCAL-00056" summary="up selenium">
+      <created>1619423414972</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1619423414972</updated>
+    </task>
+    <task id="LOCAL-00057" summary="up selenium">
+      <created>1619424002657</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1619424002657</updated>
+    </task>
+    <task id="LOCAL-00058" summary="up selenium">
+      <created>1619424293590</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1619424293590</updated>
+    </task>
+    <task id="LOCAL-00059" summary="up selenium">
+      <created>1619424435811</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1619424435811</updated>
+    </task>
+    <task id="LOCAL-00060" summary="up selenium">
+      <created>1619424616147</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1619424616147</updated>
+    </task>
+    <task id="LOCAL-00061" summary="up selenium">
+      <created>1619424837067</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1619424837067</updated>
+    </task>
+    <task id="LOCAL-00062" summary="up selenium">
+      <created>1619425069421</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1619425069421</updated>
+    </task>
+    <task id="LOCAL-00063" summary="up selenium">
+      <created>1619425229325</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1619425229325</updated>
+    </task>
+    <task id="LOCAL-00064" summary="up selenium">
+      <created>1619425491919</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1619425491919</updated>
+    </task>
+    <task id="LOCAL-00065" summary="up selenium">
+      <created>1619425637173</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1619425637173</updated>
+    </task>
+    <task id="LOCAL-00066" summary="up selenium">
+      <created>1619427754827</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1619427754827</updated>
+    </task>
+    <task id="LOCAL-00067" summary="up selenium">
+      <created>1619428119780</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1619428119780</updated>
+    </task>
+    <task id="LOCAL-00068" summary="up selenium">
+      <created>1619428563254</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1619428563254</updated>
+    </task>
+    <task id="LOCAL-00069" summary="up selenium">
+      <created>1619428946974</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1619428946974</updated>
+    </task>
+    <task id="LOCAL-00070" summary="up selenium">
+      <created>1619429722291</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1619429722291</updated>
+    </task>
+    <task id="LOCAL-00071" summary="up selenium">
+      <created>1619430045283</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1619430045283</updated>
+    </task>
+    <task id="LOCAL-00072" summary="up selenium">
+      <created>1619430346714</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1619430346714</updated>
+    </task>
+    <task id="LOCAL-00073" summary="up selenium">
+      <created>1619434873024</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1619434873024</updated>
+    </task>
+    <task id="LOCAL-00074" summary="up selenium">
+      <created>1619435178725</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1619435178725</updated>
+    </task>
+    <task id="LOCAL-00075" summary="up selenium">
+      <created>1619435197199</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1619435197199</updated>
+    </task>
+    <task id="LOCAL-00076" summary="up selenium">
+      <created>1619435968555</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1619435968555</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,6 +415,13 @@
     <MESSAGE value="del .idea" />
     <MESSAGE value="update selenium" />
     <MESSAGE value="update selenium path" />
-    <option name="LAST_COMMIT_MESSAGE" value="update selenium path" />
+    <MESSAGE value="update dump db" />
+    <MESSAGE value="update travis" />
+    <MESSAGE value="update selenium 3.1" />
+    <MESSAGE value="update selenium 3.2" />
+    <MESSAGE value="up selenium 3.3" />
+    <MESSAGE value="up selenium 3.4" />
+    <MESSAGE value="up selenium" />
+    <option name="LAST_COMMIT_MESSAGE" value="up selenium" />
   </component>
 </project>

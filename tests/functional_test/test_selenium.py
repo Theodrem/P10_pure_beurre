@@ -5,6 +5,7 @@ from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from selenium import webdriver
 from django.urls import reverse
 from django.contrib.auth.models import User
+from django.conf import settings
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--headless')
@@ -19,9 +20,9 @@ class MySeleniumTests(StaticLiveServerTestCase):
                                              password="pass_test")
 
         self.browser = webdriver.Chrome(
-            executable_path=('chromedriver'),
-            options=chrome_options,
-        )
+            executable_path=str(settings.BASE_DIR / 'webdrivers' / 'chromedriver'),
+            options=chrome_options,)
+
         self.browser.implicitly_wait(30)
         self.browser.maximize_window()
 

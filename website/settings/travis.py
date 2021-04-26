@@ -1,5 +1,5 @@
 from . import *
-from selenium import webdriver
+
 
 DATABASES = {
         'default': {
@@ -11,9 +11,3 @@ DATABASES = {
             'PORT': ''
         }
 }
-SELENIUM_WEBDRIVERS = {
-'default': {
-'callable': webdriver.Chrome,
-'args': (),
-'kwargs': {},
-},}

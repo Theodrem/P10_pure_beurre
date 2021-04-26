@@ -11,6 +11,7 @@ chrome_options.add_argument('--headless')
 chrome_options.add_argument('window-size=1920x1080')
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+
 class MySeleniumTests(StaticLiveServerTestCase):
     def setUp(self):
         self.user = User.objects.create_user(username="username_test",
@@ -18,7 +19,7 @@ class MySeleniumTests(StaticLiveServerTestCase):
                                              password="pass_test")
 
         self.browser = webdriver.Chrome(
-            executable_path=(BASE_DIR / 'webdrivers' / 'chromedriver'),
+            executable_path=('chromedriver'),
             options=chrome_options,
         )
         self.browser.implicitly_wait(30)

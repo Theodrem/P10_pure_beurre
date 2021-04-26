@@ -3,6 +3,7 @@ python:
   - '3.9'
 before_script:
   - pip install -r requirements.txt
+  - install-webdrivers --path webdrivers
 branches:
   only:
     - staging
@@ -15,9 +16,5 @@ services:
 script:
   - ./manage.py test
 
-dist: xenial
 addons:
   chrome: stable
-before_install:
-  - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
-  ⋮

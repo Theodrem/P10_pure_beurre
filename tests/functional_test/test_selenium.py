@@ -4,6 +4,11 @@ from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from selenium import webdriver
 from django.urls import reverse
 from django.contrib.auth.models import User
+from django.conf.settings import BASE_DIR
+
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_argument('--headless')
+chrome_options.add_argument('window-size=1920x1080')
 
 
 class MySeleniumTests(StaticLiveServerTestCase):
@@ -12,7 +17,12 @@ class MySeleniumTests(StaticLiveServerTestCase):
                                              email="email@outlook.fr",
                                              password="pass_test")
 
-        self.browser = webdriver.Chrome(executable_path="chromedriver.exe")
+        self.driver = webdriver.Chrome(
+            executable_path=str(BASE_DIR / 'webdrivers' / 'chromedriver'),
+            options=chrome_options,
+        )
+        self.driver.implicitly_wait(30)
+        self.driver.maximize_window()
 
     def test_login_user(self):
         self.browser.get(self.live_server_url + "/login/")

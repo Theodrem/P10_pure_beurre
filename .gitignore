@@ -17,6 +17,6 @@ local_settings.py
 __pypackages__/
 
 # Environments
-.env
+.env/
 env/
 env

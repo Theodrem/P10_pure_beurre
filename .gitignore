@@ -1,10 +1,11 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-website/settings/production.py
 # Distribution / packaging
 .Python
 build/
 lib/
+/.idea/
+.idea
 .idea/
 .pytest_cache/
 cover/
@@ -16,5 +17,6 @@ local_settings.py
 __pypackages__/
 
 # Environments
-.venv
-venv/
+.env
+env/
+env

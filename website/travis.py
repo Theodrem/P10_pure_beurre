@@ -1,4 +1,4 @@
-from . import *
+from website.settings import *
 
 
 DATABASES = {

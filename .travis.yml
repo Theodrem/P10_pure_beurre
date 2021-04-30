@@ -9,7 +9,7 @@ branches:
   only:
     - staging
 
-env: DJANGO_SETTINGS_MODULE="website.settings.travis"
+env: DJANGO_SETTINGS_MODULE="website.travis"
 
 services:
   - postgresql

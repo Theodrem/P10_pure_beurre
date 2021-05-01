@@ -4,12 +4,12 @@ python:
   - '3.9'
 before_script:
   - pip install -r requirements.txt
-  - install-webdrivers --path website/webdrivers
+  - install-webdrivers --path website/webdrivers/
 branches:
   only:
     - staging
 
-env: DJANGO_SETTINGS_MODULE="website.settings.travis"
+env: DJANGO_SETTINGS_MODULE="website.travis"
 
 services:
   - postgresql

@@ -15,7 +15,7 @@ chrome_options.add_argument('window-size=1920x1080')
 class MySeleniumTests(StaticLiveServerTestCase):
     def setUp(self):
         self.browser = webdriver.Chrome(
-            executable_path=str(settings.BASE_DIR + '/webdrivers/' + 'chromedriver'),
+            executable_path=str(settings.BASE_DIR + '/website/webdrivers/' + 'chromedriver'),
             options=chrome_options,)
 
         self.browser.implicitly_wait(30)

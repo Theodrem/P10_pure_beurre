@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd886a73-f8f3-49d7-9cee-d849ca0a68e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/website/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fd886a73-f8f3-49d7-9cee-d849ca0a68e0" name="Default Changelist" comment="update settings">
+      <change beforePath="$PROJECT_DIR$/tests/functional_test/test_selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/functional_test/test_selenium.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +32,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\theot\P10_pure_beurre\website" />
+      <recent name="C:\Users\theot\P10_pure_beurre" />
+      <recent name="C:\Users\theot\P10_pure_beurre\user" />
       <recent name="C:\Users\theot\P10_pure_beurre\tests" />
       <recent name="C:\Users\theot\P10_pure_beurre\functional_test" />
-      <recent name="C:\Users\theot\P10_pure_beurre\tests\integration_test" />
-      <recent name="C:\Users\theot\P10_pure_beurre" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -47,76 +47,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618736814040</updated>
-    </task>
-    <task id="LOCAL-00029" summary="update travis">
-      <created>1619185326146</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1619185326146</updated>
-    </task>
-    <task id="LOCAL-00030" summary="update travis">
-      <created>1619185546061</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1619185546061</updated>
-    </task>
-    <task id="LOCAL-00031" summary="update travis">
-      <created>1619185656373</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1619185656373</updated>
-    </task>
-    <task id="LOCAL-00032" summary="update travis">
-      <created>1619186947228</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1619186947228</updated>
-    </task>
-    <task id="LOCAL-00033" summary="update travis">
-      <created>1619195377039</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1619195377039</updated>
-    </task>
-    <task id="LOCAL-00034" summary="update travis">
-      <created>1619195510542</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1619195510542</updated>
-    </task>
-    <task id="LOCAL-00035" summary="update travis">
-      <created>1619195688803</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1619195688803</updated>
-    </task>
-    <task id="LOCAL-00036" summary="update travis">
-      <created>1619195969393</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1619195969393</updated>
-    </task>
-    <task id="LOCAL-00037" summary="update travis">
-      <created>1619196079388</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1619196079388</updated>
-    </task>
-    <task id="LOCAL-00038" summary="update selenium 3.1">
-      <created>1619253575494</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1619253575494</updated>
     </task>
     <task id="LOCAL-00039" summary="update selenium 3.2">
       <created>1619261270545</created>
@@ -391,7 +321,77 @@
       <option name="project" value="LOCAL" />
       <updated>1619436464730</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="add settings">
+      <created>1619792951929</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1619792951929</updated>
+    </task>
+    <task id="LOCAL-00079" summary="update settings">
+      <created>1619793225505</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1619793225505</updated>
+    </task>
+    <task id="LOCAL-00080" summary="update settings">
+      <created>1619794169989</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1619794169989</updated>
+    </task>
+    <task id="LOCAL-00081" summary="update settings">
+      <created>1619794438103</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1619794438103</updated>
+    </task>
+    <task id="LOCAL-00082" summary="update settings">
+      <created>1619794772850</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1619794772850</updated>
+    </task>
+    <task id="LOCAL-00083" summary="update settings">
+      <created>1619795176913</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1619795176914</updated>
+    </task>
+    <task id="LOCAL-00084" summary="update settings">
+      <created>1619859356783</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1619859356783</updated>
+    </task>
+    <task id="LOCAL-00085" summary="update settings">
+      <created>1619859628958</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1619859628958</updated>
+    </task>
+    <task id="LOCAL-00086" summary="update settings">
+      <created>1619859912327</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1619859912327</updated>
+    </task>
+    <task id="LOCAL-00087" summary="update settings">
+      <created>1619859998727</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1619859998727</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -407,7 +407,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update settings" />
     <MESSAGE value="add travis.yml" />
     <MESSAGE value="add travis.py" />
     <MESSAGE value="update gitignore" />
@@ -423,6 +422,8 @@
     <MESSAGE value="up selenium 3.3" />
     <MESSAGE value="up selenium 3.4" />
     <MESSAGE value="up selenium" />
-    <option name="LAST_COMMIT_MESSAGE" value="up selenium" />
+    <MESSAGE value="add settings" />
+    <MESSAGE value="update settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="update settings" />
   </component>
 </project>

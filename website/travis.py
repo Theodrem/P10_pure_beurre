@@ -1,5 +1,6 @@
-from . import *
+from website.settings import *
 
+SECRET_KEY="ezfezf'zefeer'((')==ù'((-è"
 
 DATABASES = {
         'default': {

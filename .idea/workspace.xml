@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fd886a73-f8f3-49d7-9cee-d849ca0a68e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/travis.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/travis.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +32,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\theot\P10_pure_beurre" />
       <recent name="C:\Users\theot\P10_pure_beurre\website" />
+      <recent name="C:\Users\theot\P10_pure_beurre\user" />
       <recent name="C:\Users\theot\P10_pure_beurre\tests" />
       <recent name="C:\Users\theot\P10_pure_beurre\functional_test" />
-      <recent name="C:\Users\theot\P10_pure_beurre\tests\integration_test" />
-      <recent name="C:\Users\theot\P10_pure_beurre" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -49,20 +47,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618736814040</updated>
-    </task>
-    <task id="LOCAL-00033" summary="update travis">
-      <created>1619195377039</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1619195377039</updated>
-    </task>
-    <task id="LOCAL-00034" summary="update travis">
-      <created>1619195510542</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1619195510542</updated>
     </task>
     <task id="LOCAL-00035" summary="update travis">
       <created>1619195688803</created>
@@ -393,7 +377,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619794438103</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="update settings">
+      <created>1619794772850</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1619794772850</updated>
+    </task>
+    <task id="LOCAL-00083" summary="update settings">
+      <created>1619795176913</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1619795176914</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
